@@ -8,7 +8,7 @@ import cv2
 import numpy as np
 
 img = cv2.imread("D:\DATA Science 360 DigiTMG\AI\hand.jpg")
-img = cv2.resize(img,(400,500))
+img = cv2.resize(img,(300,350))
 img1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 blur = cv2.medianBlur(img1,11)
